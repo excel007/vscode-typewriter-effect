@@ -3,7 +3,7 @@
   "displayName": "Code Typewriter Effect",
   "description": "Adds a typewriter effect to your code. Fixed newline/indentation handling for modern VSCode.",
   "version": "1.0.0",
-  "publisher": "your-publisher-name",
+  "publisher": "excel007",
   "engines": {
     "vscode": "^1.85.0"
   },
