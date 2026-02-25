@@ -1,6 +1,6 @@
 {
-  "name": "code-typewriter-effect",
-  "displayName": "Code Typewriter Effect",
+  "name": "code-typewriter-effect-rev1",
+  "displayName": "Code Typewriter Effect Rev.1",
   "description": "Adds a typewriter effect to your code. Fixed newline/indentation handling for modern VSCode.",
   "version": "1.0.0",
   "publisher": "excel007",
