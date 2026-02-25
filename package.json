@@ -4,6 +4,12 @@
   "description": "Adds a typewriter effect to your code. Fixed newline/indentation handling for modern VSCode.",
   "version": "1.0.0",
   "publisher": "excel007",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/excel007/vscode-typewriter-effect"
+  },
+  "icon": "icon.png",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
   },
