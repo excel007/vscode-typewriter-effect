@@ -1,0 +1,60 @@
+{
+  "name": "code-typewriter-effect",
+  "displayName": "Code Typewriter Effect",
+  "description": "Adds a typewriter effect to your code. Fixed newline/indentation handling for modern VSCode.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeTypewriterEffect.start",
+        "title": "Start Typewriter Effect"
+      },
+      {
+        "command": "codeTypewriterEffect.stop",
+        "title": "Stop Typewriter Effect"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "codeTypewriterEffect.start",
+          "group": "navigation"
+        },
+        {
+          "command": "codeTypewriterEffect.stop",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Code Typewriter Effect",
+      "properties": {
+        "codeTypewriterEffect.typingSpeed": {
+          "type": "number",
+          "default": 30,
+          "description": "Typing speed in milliseconds per character. Lower = faster."
+        },
+        "codeTypewriterEffect.preserveIndentation": {
+          "type": "boolean",
+          "default": true,
+          "description": "Preserve original indentation when typing new lines."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "eslint": "^8.57.0"
+  }
+}
