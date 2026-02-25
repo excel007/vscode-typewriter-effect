@@ -33,7 +33,7 @@ This fork fixes both issues by:
 ## Installation (Development)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vscode-typewriter-effect.git
+git clone https://github.com/excel007/vscode-typewriter-effect.git
 cd vscode-typewriter-effect
 npm install
 # Press F5 in VSCode to launch Extension Development Host
